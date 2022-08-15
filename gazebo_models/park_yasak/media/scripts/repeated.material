@@ -1,0 +1,16 @@
+material Gecit/Yok
+{{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture gecityok.jpg
+      }
+    }
+  }
+}
+
+

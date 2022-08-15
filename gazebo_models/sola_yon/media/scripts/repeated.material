@@ -1,0 +1,29 @@
+material Sola/Yon
+{{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture images.jpeg
+      }
+    }
+  }
+}
+
+material StopSign/Specular
+{
+  receive_shadows off
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture StopSign_Spec.png
+      }
+    }
+  }
+}
